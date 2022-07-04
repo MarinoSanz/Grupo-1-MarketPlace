@@ -1,4 +1,5 @@
 
+/* ESTOS ESTILOS SON DEL HEADER! */
 .justify_content_flex_end {
     display:flex;
     justify-content: flex-end;
@@ -11,11 +12,43 @@
     height: 10rem;
 }
 
+/* tamaño de las iconos del nav, la lupa, el carrito y el perfil */
 .img_size_navbar {
     width:3rem;
     height:2rem;
 }
 
+
 .font_weight_nav {
     font-weight: 300;
+}
+
+/* ESTILOS PARA EL CARROUSEL DEL HOME */
+
+.carousel-item {
+    height: 30rem;
+    background-color: #000;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container_carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
 }
