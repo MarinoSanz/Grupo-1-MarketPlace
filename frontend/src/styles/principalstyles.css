@@ -1,6 +1,21 @@
+
+.justify_content_flex_end {
+    display:flex;
+    justify-content: flex-end;
+}
+
 /* tamaño del logo  */
 
 .logo_size {
     width: 15rem;
     height: 10rem;
+}
+
+.img_size_navbar {
+    width:3rem;
+    height:2rem;
+}
+
+.font_weight_nav {
+    font-weight: 300;
 }
