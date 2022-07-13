@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,400&display=swap');
 /* ESTOS ESTILOS SON DEL HEADER! */
+:root{
+    --backgroundBody: #fff8e7;
+    --buttom: #4ca5af; 
+}
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -59,6 +63,7 @@
 <------------------------------------------------------------------------------------------------------------------------>
 */
 .page-content {
+    background-color: var(--backgroundBody);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -76,9 +81,10 @@
     cursor: pointer;
 }
 .product-container:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 5px 10px 16px 5px rgba(0, 0, 0, 0.2);
 }
 .product-container img {
+    border: 1px solid #000;
     height: 350px;
     width: 300px;
 }
@@ -93,13 +99,14 @@
 .button-add {
     background-color: white;
     color: black;
-    border: 2px solid #4ca5af;
+    border-radius: 10px;
+    border: 4px solid var(--buttom);
     transition-duration: 0.4s;
     position: absolute;
     right: 15px;
     bottom: 10px;
 }
 .button-add:hover {
-    background-color: #4ca5af;
+    background-color: var(--buttom);
     color: white;
 }
