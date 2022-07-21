@@ -67,18 +67,36 @@
     height: 10%;
 }
 .bodySectionShort {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    height: 100vh;
+    display: grid;
+    background-image: url(../assets/images/background-old-vintage-brick-wall-3039312.jpg);
+    background-color: antiquewhite, 50%;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
 }
 
 .articulosSeccionShort {
     padding: 10px;
-    grid-template-columns: auto;
-    width: 20%;
+    margin: 10px;
+    justify-content: center;
+    background-color: rgb(241, 250, 202, 50%);
+    width: 380px;
+    text-align: center;
+    border: 3px solid salmon ;
+}
+.imagenesarticulosshort {
+    width: 350px;
+}
+.h1{
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 
 }
-
 /* Estilos Artìculos Short's*/
